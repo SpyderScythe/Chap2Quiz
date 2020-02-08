@@ -1,5 +1,4 @@
-#ifndef IO_H
-#define IO_H
+#include <iostream>
 
 int readNumber()
 {
@@ -13,5 +12,3 @@ void writeAnswer(int input)
 {
     std::cout << "Your numbers added together are: " << input << ".\n";
 }
-
-#endif
